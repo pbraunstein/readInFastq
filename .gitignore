@@ -5,6 +5,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Obnoxious vim saved files
+*.pyc
+
 # Distribution / packaging
 .Python
 env/
