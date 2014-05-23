@@ -22,11 +22,10 @@ def main():
 
         sequences = readInFastq()
 
-#        print sequences
-
-        print len(sequences)
+        print sequences
 
         exit(0)
+
 
 # Verifies that the scripts was invoked in a valid way
 def checkArgs():
@@ -77,8 +76,6 @@ def readInFastq():
 
         return toReturn
                         
-
-
 
 if __name__ == '__main__':
         main()
